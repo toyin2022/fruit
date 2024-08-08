@@ -1,0 +1,28 @@
+.end {
+  display: flex;
+  justify-content: center;
+}
+.topNav {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  width: 70vw;
+  border-radius: 20px 40px;
+  background-color: rgb(118, 184, 20);
+  color: white;
+}
+.leftTopNav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.topNav .leftTopNav .leftText {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topNav .leftTopNav .leftText .topNavIcons {
+  color: orange;
+  font-size: 1.2rem;
+}
