@@ -1,8 +1,8 @@
 import React from "react";
 import "./topNavbar.css";
 
-const topNavbar = () => {
-  return <div>topNavbar</div>;
+const TopNavbar = () => {
+  return <div>TopNavbar</div>;
 };
 
-export default topNavbar;
+export default TopNavbar;
