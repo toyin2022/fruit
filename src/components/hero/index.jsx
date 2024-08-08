@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hero.css";
+import "./hero.css";
 import heroImg from "../../img/hero-img-1.png";
 import heroImg2 from "../../img/hero-img-2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
