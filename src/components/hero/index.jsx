@@ -3,7 +3,7 @@ import "./hero.css";
 import heroImg from "../../img/hero-img-1.png";
 import heroImg2 from "../../img/hero-img-2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, Scrollbar } from "swiper/modules"; // Correct import for modules
+import { Navigation, Pagination, Autoplay, Scrollbar } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
