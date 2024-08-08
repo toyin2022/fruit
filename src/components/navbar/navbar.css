@@ -1,0 +1,36 @@
+.navbar {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  background: #fff;
+}
+.navCont {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.navbar .navCont .fruitables {
+  font-size: 2rem;
+  color: greenyellow;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: bold;
+}
+.navbar .navCont .menuicon {
+  display: flex;
+  height: 35px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid greenyellow;
+}
+.navbar .navCont .menuicon .greenLines {
+  height: 0.2rem;
+  background-color: greenyellow;
+  width: 20px;
+}
