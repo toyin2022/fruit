@@ -29,8 +29,6 @@ const Hero = () => {
             spaceBetween={50}
             // scrollbar={{ draggable: true }}
             autoplay={{ delay: 2000, disableOnInteraction: false }} // Configure Autoplay
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
           >
             <SwiperSlide>
               <div className="fruitslide">

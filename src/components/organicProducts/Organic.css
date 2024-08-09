@@ -1,0 +1,107 @@
+.organicSection {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.organicCont {
+  height: 100%;
+  width: 90%;
+}
+.organicCont .organicTop {
+  display: flex;
+  justify-content: space-around;
+}
+.organicCont .orti {
+  font-size: 2rem;
+  width: 30%;
+  font-weight: bold;
+}
+.organicTop .changeBtns {
+  display: flex;
+  gap: 1rem;
+}
+
+.organicTop .changeBtns .organicBtn {
+  /* padding: 0.1rem 1rem; */
+  width: 8rem;
+  height: 3rem;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 50px;
+  background: rgba(128, 128, 128, 0.473);
+  cursor: pointer;
+}
+.organicTop .changeBtns .btnorga {
+  background-color: orange;
+  color: white;
+}
+.organicBottom {
+  margin-top: 3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background: #000; */
+}
+.organicBottom .orgaCard {
+  width: 20%;
+  display: flex;
+  /* align-items: center; */
+  padding: 0.3rem 1rem;
+  flex-direction: column;
+  border: 1px solid orange;
+  height: 45vh;
+  border-top: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+.organicBottom .orgaCard:hover {
+  transform: scale(1.01);
+  box-shadow: 7px 7px 30px 12px rgba(128, 128, 128, 0.596);
+}
+.orgaCat {
+  padding: 0.2rem 1rem;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  color: white;
+  border-radius: 10px;
+}
+.orgatit {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.orgadesc {
+  text-align: center;
+}
+.orgapri {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.addtocart {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid orange;
+  height: 2rem;
+  width: 10rem;
+  gap: 0.3rem;
+
+  color: rgb(171, 238, 37);
+  margin-top: 0.4rem;
+  transition: all 0.5s ease-in-out;
+}
+.addtocart:hover {
+  background: orange;
+  color: white;
+}

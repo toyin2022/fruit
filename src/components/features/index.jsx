@@ -1,5 +1,4 @@
 import React from "react";
-import { FaLocationPin } from "react-icons/fa6";
 import { FaUserShield } from "react-icons/fa";
 
 import { FaCarSide } from "react-icons/fa";
