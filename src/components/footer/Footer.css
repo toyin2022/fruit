@@ -1,0 +1,138 @@
+.footerCont{
+    height: 80vh;
+    width: 100%;
+    background-color: #45595b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 11vh;
+}
+.footer{
+    width: 85%;
+    height: 80%;
+}
+.footer .top{
+    border-bottom:1px solid orange;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .top .title p{
+    color: greenyellow;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.footer .top .title span{
+    color: orange;
+}
+.footer .top .subscribe{
+    background-color: white;
+    width: 40vw;
+    height: 60%;
+    border-radius: 40px;
+    display: flex;
+}
+.footer .top .subscribe input{
+    width: 70%;
+    border-radius: 40px;
+    padding-left: 2rem;
+    outline: none;
+}
+.footer .top .subscribe button{
+    width: 30%;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: greenyellow;
+    transition: all 0.5s;
+}
+.footer .top .subscribe button:hover{
+    background-color: orange;
+}
+.footer .top .links{
+    display: flex;
+    gap: 0.5rem;
+}
+.footer .top .links .icon{
+    color: orange;
+    border: 1px solid orange;
+    padding: 8px;
+    font-size: 3rem;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.footer .top .links .icon:hover{
+    color: black;
+    background-color: orange;
+}
+.footer .bottom{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.footer .bottom .sect{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 25%;
+}
+.footer .bottom .sect h1{
+    color: #f4f6f8;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footer .bottom .sect p, .footer .bottom .sect ul, .footer .bottom .sect span{
+    color: #f4f6f87f;
+    font-size: 1rem;
+    word-spacing: 0.15rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.footer .bottom .sect span{
+    line-height: 1.5rem;
+}
+.footer .bottom .sect ul li:hover{
+    transition: all 0.5s;
+    color: orange;
+}
+.footer .bottom .sect button{
+    color: greenyellow;
+    border: 1px solid orange;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+.footer .bottom .sect button:hover{
+    background-color: orange;
+    color: white;
+}
+.copyright{
+    width: 85%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright .left p, .copyright .right p{
+    color: #fff;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+.copyright .left span, .copyright .right span{
+    color: greenyellow;
+}
+.copyright .right span{
+    text-decoration: underline;
+}
