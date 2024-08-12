@@ -1,5 +1,5 @@
 import React from "react";
-import "./hero.css";
+import "./Hero.css";
 import heroImg from "../../img/hero-img-1.png";
 import heroImg2 from "../../img/hero-img-2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
         <div className="hero-right">
           <Swiper
-            modules={[Autoplay, Navigation, Pagination, Scrollbar]} // Register modules
+            modules={[Autoplay, Navigation, Autoplay, Pagination, Scrollbar]} // Register modules
             // spaceBetween={50}
             slidesPerView={1}
             spaceBetween={50}

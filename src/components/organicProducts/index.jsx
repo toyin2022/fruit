@@ -38,7 +38,7 @@ const Organic = () => {
       title: "Banana",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
-      price: "$4.99 / kg",
+      price: "$4.59 / kg",
     },
     {
       category: "Fruits",
